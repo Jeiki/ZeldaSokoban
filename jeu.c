@@ -9,7 +9,6 @@
 
 void jeu()
 {
-    int pool;
     SDL_Surface *ecran={NULL},*fond={NULL},*link={NULL},*coffre={NULL},*interupteur={NULL},*mur={NULL},*reset={NULL};
     ecran=SDL_SetVideoMode(1200,900,32,SDL_HWSURFACE|SDL_DOUBLEBUF);
     fond=IMG_Load("images/fond.jpg");
